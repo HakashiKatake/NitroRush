@@ -1,0 +1,33 @@
+sap green o
+color #F7DDD4 o
+#FD4D0C
+#448D76
+#14B884
+#093426
+killing mec o
+menu o
+coins o
+shop o
+inventory o
+leaderboard x
+tutorial x
+special rects o
+graphical overhaul o
+settings x 
+audio and sound effects o
+
+(247, 212, 227)
+(194, 20, 96)
+(178, 215, 50)
+(148, 184, 20)
+(43, 52, 9)
+ 
+
+with open("Json_db/users.json", 'r') as f:
+  users = json.load(f)
+
+with open("Json_db/users.json", 'w') as f:
+    json.dump(users, f, indent=2) 
+
+        
+
